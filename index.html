@@ -60,7 +60,7 @@
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.primaryorg/2000/svg"
                   class="h-5 w-5"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -302,6 +302,7 @@
 
       <!-- LET'S DISCUSS SECTION -->
       <section class="bg-bannerBg bg-no-repeat bg-cover py-32">
+        <div class="container mx-auto px-8">
         <div class="text-center">
           <button class="btn bg-primary-color px-8 rounded-full">
             <span><i class="fa-solid fa-arrow-right"></i></span>Let's Connect
@@ -351,11 +352,11 @@
           <div class="flex justify-center my-8">
             <textarea
               class="textarea textarea-bordered w-[720px]"
-              placeholder="Write your meassage here ..."
+              placeholder="Write your message here ..."
             ></textarea>
           </div>
           <div class="flex justify-center my-8">
-            <button class="btn bg-primary-color w-[720px] mx-auto">
+            <button class="btn bg-primary-color w-full lg:w-[720px] mx-auto">
               Send Mail
               <span
                 ><i
@@ -365,7 +366,46 @@
             </button>
           </div>
         </div>
+      </div>
       </section>
     </main>
+
+        <footer class="footer footer-center bg-black text-primary-content py-12">
+          <div class="px-8">
+          <aside>
+            <div class="flex justify-center items-center">
+              <a href=""
+              ><p class="rounded-full text-black mr-1 bg-primary-color text-xl px-2">
+                ↗
+              </p></a
+            >
+            <a href=""><h3 class="text-xl">Rinterio</h3></a>
+            </div>
+            <p class="text-gray-500 pt-6">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+          </aside>
+            <div class="grid grid-flow-row lg:grid-flow-col gap-4">
+                <ul class="menu lg:flex lg:flex-row ">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Services</a></li>
+                  <li><a href="">Portfolio</a></li>
+                  <li><a href="">Blogs</a></li>
+                  <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+              <a href="">
+                <button class="btn bg-primary-color rounded-full border-none">
+                  Book Consult
+                  <span
+                    ><i
+                      class="fa-solid fa-circle-arrow-right origin-center -rotate-45"
+                    ></i
+                  ></span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </footer>
+
   </body>
 </html>
